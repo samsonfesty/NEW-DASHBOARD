@@ -1,0 +1,354 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgba(248, 246, 246, 0.774);
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1%;
+}
+.dashboard{
+    width: 21%;
+    height: 670px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: white;
+    box-shadow: grey;
+}
+.avater1{
+    margin-top: 8%;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30%;
+}
+.logo{
+    width: 30px;
+    height: 30px;
+    margin-left: 10%;
+    background-image: url(./images/logo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo2{
+    width: 20px;
+    height: 20px;
+    margin-left: 35%;
+    background-image: url(./images/3straightcircle.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.avater{
+    margin-top: 2%;
+    width: 80%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 6%;
+    gap: 5%;
+}
+.nanimg{
+    width: 20px;
+    height: 20px;
+    background-image: url(./images/dashboard.svg);
+    background-position: center;
+    background-size: cover;
+}
+.nanimg2{
+    width: 20px;
+    height: 20px;
+    background-image: url(./images/deals.svg);
+    background-position: center;
+    background-size: cover;
+}
+.nanimg3{
+    width: 20px;
+    height: 20px;
+    background-image: url(./images/contacts.svg);
+    background-position: center;
+    background-size: cover;
+}
+.nanimg4{
+    width: 20px;
+    height: 20px;
+    background-image: url(./images/conversation.svg);
+    background-position: center;
+    background-size: cover;
+}
+.nanimg5{
+    width: 20px;
+    height: 20px;
+    background-image: url(./images/billing.svg);
+    background-position: center;
+    background-size: cover;
+}
+.nanimg6{
+    width: 20px;
+    height: 20px;
+    background-image: url(./images/settings-svgrepo-com\ \(1\).svg);
+    background-position: center;
+    background-size: cover;
+}
+p{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nantype{
+    width: 60%;
+    height: 30px;
+    background-color: darkgray;
+}
+.nantype2{
+    width: 60%;
+    height: 30px;
+    background-color: darkgray;
+}.nantype3{
+    width: 60%;
+    height: 30px;
+    background-color: darkgray;
+}
+.nantype4{
+    width: 60%;
+    height: 30px;
+    background-color: darkgray;
+}
+.nantype5{
+    width: 60%;
+    height: 30px;
+    background-color: darkgray;
+}
+.nantype6{
+    width: 60%;
+    height: 30px;
+    background-color: darkgray;
+}
+.salesboard{
+    padding: 5px;
+    width: 80%;
+    height: 100vh;
+    background-color: rgb(248, 246, 246, 0.774);
+}
+.notifs{
+    width: 100%;
+    height: 70px;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3%;
+}
+.avo{
+    width: 15px;
+    height: 15px;
+    margin-left: 83%;
+}
+.avo1{
+    width: 20px;
+    height: 20px;
+}
+.avo2{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+.board{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+}
+.gtn{
+    display: inline-flex;
+    align-items: center;
+}
+.fit{
+    width: 70px;
+    height: 20px;
+    display: inline-flex;
+}
+.yuni{
+    width: 20px;
+    height: 20px;
+}
+.gtn1{
+    width: 384px;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+.jin1{
+    font-size: 30px;
+}
+.yuni1{
+    width: 20px;
+    height: 20px;
+}
+.fit1{
+    width: 190px;
+    height: 30px;
+}
+.btn{
+    width: 70px;
+    height: 29px;
+    margin-left: 36%;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(77, 211, 77);
+}
+.jin{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.create{
+    color: white;
+}
+.mainboard{
+    width: 100%;
+    height: 390px;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3%;
+}
+.boardrow{
+    width: 30%;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px;
+    background-color: whitesmoke;
+    gap: 3%;
+    border: 0.1px solid rgb(167, 163, 163);
+}
+.boardrow2{
+    margin-top: -12%;
+    width: 30%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0px;
+    background-color: whitesmoke;
+    gap: 3%;
+    border: 0.1px solid rgb(167, 163, 163);
+}
+.neww1{
+    width: 90%;
+    height: 50px;
+    margin-top: 4%;
+}
+.new1{
+    width: 90%;
+    height: 50px;
+}
+.new2{
+    width: 90%;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1%;
+    border-radius: 7px;
+    background-color: white;
+}
+.type{
+    width: 90%;
+    height: 50px;
+    margin-top: 3%;
+}
+.price{
+    width: 90%;
+    height: 30px;
+    margin-top: 3%;
+}
+.new1{
+    align-items: baseline;
+    margin-left: 2%;
+}
+.cir{
+    width: 10px;
+    height: 10px;
+    margin-left: 0.5%;
+}
+.cir3, .add{
+    margin-top: 1%;
+    margin-left: 4%;
+}
+a{
+    color: green;
+}
+.cir2{
+    width: 10px;
+    height: 10px;
+    margin-left: 67%;
+}
+.nw1{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+.cirq{
+    width: 10px;
+    height: 10px;
+    margin-left: 50%;
+}
+.cire{
+    width: 10px;
+    height: 10px;
+    margin-left: 0.5%;
+}
+.cirw{
+    width: 10px;
+    height: 10px;
+    margin-left: 37%;
+}
+.maintext{
+    margin-left: 4%;
+}
+.nw2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 70%;
+}
+.nw3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.maino{
+    font-size: 10px;
+}
+.cir5{
+    width: 10px;
+    height: 10px;
+    margin-left: 35%;
+}
+.cir6{
+    width: 10px;
+    height: 10px;
+    margin-left: 30%;
+}
+.maino1{
+    margin-top: -2%;
+    font-size: 11px;
+}
